@@ -72,3 +72,27 @@ line-height: 1;
 height:500px;
 flex-shrink: 0;
 }
+footer{
+    background: #070211;
+}
+footer p{
+    color: #FFF;
+font-family: Inter;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
+}
+hr{
+    width: 1235px;
+height: 1px;
+background: rgba(255, 255, 255, 0.15);
+}
+.social-media{
+    text-align: center;
+}
+.social-media img{
+    height: 50px;
+    width: 50px;
+    padding: 20px 0;
+}
