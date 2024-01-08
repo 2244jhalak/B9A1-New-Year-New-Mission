@@ -262,4 +262,22 @@ line-height: 1;
     font-weight: 400;
     line-height: 32px; 
 }
+.sale h6{
+text-align: center;
+}
+.sale h2{
+text-align: center;
+}
+.sale p{
+text-align: center;
+}
+.sale-card{
+    width: 1320px;
+    
+    gap: 0;
+    background-image: url(../images/Rectangle2.png),url(../images/Rectangle1.png);
+   
+    background-repeat: no-repeat;
+    background-position: bottom,top right;
+}
 
