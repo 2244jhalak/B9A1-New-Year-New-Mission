@@ -195,7 +195,8 @@ height: 400px;
 margin-right: 0;
 flex-shrink: 0;
 
-  transition: width 3s, height 3s, transform 3s;
+  transform: scale(1);
+  transition: all 0.3s;
 
 }
 .gift {
@@ -203,7 +204,7 @@ flex-shrink: 0;
 }
 .gift-image img:hover{
     
-    transform: rotate(360deg);
+    transform: scale(1.07);
 }
 .best-offer{
     margin-top: 100px;
@@ -311,7 +312,7 @@ padding: 0px 30px;
 .sale-card{
     width: 1320px;
     
-    gap: 0;
+    
     background-image: url(../images/Rectangle2.png),url(../images/Rectangle1.png);
    
     background-repeat: no-repeat;
